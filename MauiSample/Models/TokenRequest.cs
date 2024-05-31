@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace matrix42.mobile.app.ui.Models
+namespace MauiSample.Models
 {
     public class TokenRequest
     {

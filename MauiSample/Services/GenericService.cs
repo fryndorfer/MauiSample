@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.Logging;
-using matrix42.mobile.app.ui.Services.Interfaces;
+using MauiSample.Services.Interfaces;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 
-namespace matrix42.mobile.app.ui.Services
+namespace MauiSample.Services
 {
     public class GenericService<TModel, TDto> : RestServiceBase, IGenericService<TModel, TDto>
         where TModel : IGenericBase, new()

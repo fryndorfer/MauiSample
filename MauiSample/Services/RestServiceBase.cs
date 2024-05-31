@@ -1,5 +1,5 @@
-﻿using matrix42.mobile.app.ui.Models;
-using matrix42.mobile.app.ui.Services.Interfaces;
+﻿using MauiSample.Models;
+using MauiSample.Services.Interfaces;
 using Microsoft.Extensions.Logging;
 using System.Net;
 using System.Net.Http;
@@ -10,7 +10,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Web;
 
-namespace matrix42.mobile.app.ui.Services
+namespace MauiSample.Services
 {
     public class RestServiceBase : IRestServiceBase
     {

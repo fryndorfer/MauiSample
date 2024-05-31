@@ -1,4 +1,4 @@
-﻿namespace matrix42.mobile.app.ui.Services.Interfaces
+﻿namespace MauiSample.Services.Interfaces
 {
     public interface IGenericService<TModel, TDto>
     {
